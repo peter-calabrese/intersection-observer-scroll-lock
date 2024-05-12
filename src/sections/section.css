@@ -1,0 +1,9 @@
+.section {
+  height: 100%;
+  scroll-snap-align: start;
+  overflow: scroll;
+}
+
+.section > div {
+  height: 150vh;
+}

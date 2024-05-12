@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-child {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+}
